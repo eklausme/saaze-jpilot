@@ -1,0 +1,136 @@
+/* CSS for Elmar Klausmeier's blog
+   09-Aug-2021: Initial revision
+   25-Aug-2021: Added transformed anchor a
+*/
+
+a { color:inherit; text-decoration:underline; position:relative; display:inline-block }
+a:after {
+/*	width:0%; height:24;
+	transition: all 0.1s ease-in-out;
+	top:auto; right:auto; z-index:-1;
+	width:calc(100%-40px);
+*/
+	background:sandybrown;
+	content:'';
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	margin-bottom:.0rem; height:2rem;
+}
+a:hover:after { width:100%;
+	transform:skewY(-4deg) /*translate(-.0px)*/; opacity:0.25;
+}
+
+p { font-family:ui-serif,Georgia,Cambria,"Times New Roman",Times,serif }
+img { border-radius:8px }
+blockquote { font-style:italic; padding-left:0.4rem; border-left:2px solid #ccc }
+td { border: 1px solid Black; border-collapse:collapse; padding:0.3rem 0.5rem 0.3rem 0.5rem }
+th { border: 1px solid Black; background-color:Lightblue; padding:0.3rem 0.5rem 0.3rem 0.5rem }
+tr:nth-child(even) { background-color:Lightgray; }
+
+
+@media screen and (min-width: 601px) {
+	.blogarea { margin-left:3rem; width:46rem }
+	h1 { font-size:3em; color:DarkBlue }
+	h2 { font-size:2.7em; color:DarkBlue }
+	h3 { font-size:2em; color:DarkBlue }
+	p { line-height:1.7; font-size:1.3rem }
+	blockquote { line-height:1.5; font-size:1.3rem }
+	ul { line-height:1.4; font-size: 1.3rem }	/*1.4em*/
+	ol { line-height:1.5; font-size: 1.3rem }
+	li { margin-bottom:0.6rem }
+	pre { color:#e2e8f0; background-color:#2d3748; border-radius:0.4rem; overflow-x:auto; padding:1.4rem }
+	pre code { color:#e2e8f0; line-height:1.8; font-size:1.1rem; font-weight:400; }
+	code[class*="language-"], pre[class*="language-"] { line-height:1.5; font-size:1.15rem }
+	/*code[class="language-perl"], pre[class="language-perl"] { line-height:1.5; font-size:1.15rem; tab-size:8 }*/
+}
+@media screen and (max-width: 600px) {
+	.blogarea { margin-left:0rem; width:25rem }
+	h1 { font-size:2.2em; color:DarkBlue }
+	h2 { font-size:1.7em; color:DarkBlue }
+	h3 { font-size:1.2em; color:DarkBlue }
+	p { line-height:1.5; font-size:1.0em }
+	ul { line-height:1.3; font-size:1.0em }
+	ol { line-height:1.4; font-size:1.0em }
+	li { margin-bottom:0.4rem }
+	pre { color:#e2e8f0; background-color:#2d3748; border-radius:0.4rem; overflow-x:auto }
+	pre code { color:#e2e8f0; line-height:1.3; font-size:1em }
+}
+
+.dimmedColor { color:Gray }
+.dimmedColorSansSerif { font-family:sans-serif ; color:Gray }
+
+/* Copied from TailwindCSS 2.0 typography.min.css */
+code { color:inherit; font-weight:500; font-size:inherit }
+/* code::before { content:"`" }
+   code::after { content:"`" }
+*/
+pre code::before { content:"" }
+pre code::after{ content:"" }
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #333; 
+}
+
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.subnav {
+	float: left;
+	overflow: hidden;
+}
+
+.subnav .subnavbtn {
+	font-size: 16px;	
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+	background-color: DarkSalmon;
+}
+
+.subnav-content {
+	display: none;
+	position: absolute;
+	left: 0;
+	background-color: DarkSalmon;
+	width: 100%;
+	z-index: 1;
+}
+
+.subnav-content a {
+	float: left;
+	color: white;
+	text-decoration: none;
+}
+
+.subnav-content a:hover {
+	background-color: #eee;
+	color: black;
+}
+
+.subnav:hover .subnav-content {
+	display: block;
+}
+
+
+

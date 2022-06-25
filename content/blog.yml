@@ -1,0 +1,5 @@
+title: Simplified Saaze Blog Example
+sort_field: date
+sort_direction: desc
+index_route: /blog
+entry_route: /blog/{slug}

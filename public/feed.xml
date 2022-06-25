@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>J-Pilot</title>
+	<description>J-Pilot</description>
+	<lastBuildDate>Sat, 06 Nov 2021 18:32:01 GMT</lastBuildDate>
+	<link>https://eklausmeier.goip.de/jpilot</link>
+	<atom:link href="https://eklausmeier.goip.de/jpilot/feed.xml" rel="self" type="application/rss+xml" />
+	<generator>mkdwnrss</generator>
+
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./pages/index/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./pages/index/</guid>
+		<title>J-Pilot Software Features</title>
+		<pubDate>Thu, 04 Nov 2021 19:01:00 GMT</pubDate>
+		<description><![CDATA[J-Pilot is a desktop organizer application, which can be used with PalmOS devices. It is meant to be an alternative to the Palm Desktop for those who run the most popular Operating Systems in the World, Linux and Unix.  Note, that most common does not equate to most popular. ![](./img/jpilot-landing.png) &lt;h3 id="third-party-application-support"&gt;Third-party Application Support&lt;/h3&gt; * Support for &lt;a href="http://www.pimlicosoftware.com/"&gt;DateBk3/4/5/6&lt;/a&gt; tags * ~~Support for [PEdit Palm application](http://home.columbus.rr.com/nevai/palm/)~~ &lt;h3 id="plugin-support"&gt;Plugin Support&lt;/h3&gt; * J-Pilot ships with an Expense plugin by default * Synctime plugin for setting the time on the Palm device (this is not the same as the &lt;a href="http://palmgadget.com/palmsync.html"&gt;SyncTime&lt;/a&gt; Palm application.]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./doc/requirements/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./doc/requirements/</guid>
+		<title>Requirements</title>
+		<pubDate>Thu, 01 Jan 1998 11:00:00 GMT</pubDate>
+		<description><![CDATA[&lt;p&gt;To build on Ubuntu you will need the following packages&lt;/p&gt; * pilot-link * libpisock-dev * libpisock9 * autopoint * autoconf * intltool * libtool * libgcrypt20-dev * libgcrypt20 For J-Pilot versions 1.x you will need: * libgtk2.0-dev Likewise, for J-Pilot 2.x you need * libgtk3.0-cil-dev]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./doc/plugins/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./doc/plugins/</guid>
+		<title>Plugins</title>
+		<pubDate>Wed, 29 Apr 2020 11:00:00 GMT</pubDate>
+		<description><![CDATA[* 2020-04-29 __J-Pilot SQLite plugin__, see [J-Pilot Plugin For SQLite Export](https://eklausmeier.goip.de/blog/2020/04-29-j-pilot-plugin-for-sqlite-export) 	The plugin provides the following functionality: Create new database from scratch, it is called `jptables.db`, export all entities; in debug mode you can use J-Pilot's search to search in the SQLite database * 2009-02-15 &lt;strong&gt;JPilot-icalendar&lt;/strong&gt; can be found &lt;a href="http://jp-icalendar.sourceforge.net"&gt;here&lt;/a&gt;&lt;br/&gt; 	jpilot-icalendar is currently a standalone program that imports RFC2445 (aka iCalendar) events into J-Pilot. * 2008-05-27 &lt;strong&gt;Pics&amp;amp;Videos&lt;/strong&gt; can be found &lt;a href="http://www.sourceforge.net/projects/picsnvideos"&gt;here&lt;/a&gt;&lt;/dt&gt; 	Downloads pictures, photos and videos from newer Palm Treo and Palm Centro phones. Reads both internal flash and SD Card. * 2000-10-30 &lt;strong&gt;pilot-mailsync&lt;/strong&gt; can be found &lt;a href="http://wissrech.iam.uni-bonn.de/people/garcke/pms/"&gt;here&lt;/a&gt;&lt;br/&gt; 	Sync mail with your Palm]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./doc/plugin-manual/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./doc/plugin-manual/</guid>
+		<title>J-Pilot Plugin Manual</title>
+		<pubDate>Sat, 28 Sep 2002 11:00:00 GMT</pubDate>
+		<description><![CDATA[&lt;h3&gt;Updates&lt;/h3&gt; This document was last updated 28 September 2002, for J-Pilot-0.99.3&amp;nbsp; &lt;h3&gt;What are plugins?&lt;/h3&gt; A plugin is code that can extend the functionality of j-pilot without adding any code to j-pilot, or recompiling it.&amp;nbsp; It is basically just a shared library that contains pre-defined callback functions. &lt;br&gt;A callback function is a function that is not called from the application itself, but from an external program.&amp;nbsp; When J-Pilot starts up it will scan the plugin directories for any shared libraries (~/.jpilot/plugins/]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./doc/nexus/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./doc/nexus/</guid>
+		<title>Setting up a Nexus One for use without a data plan</title>
+		<pubDate>Wed, 31 Mar 2010 22:03:35 GMT</pubDate>
+		<description><![CDATA[&lt;p&gt;There are plenty of people who want a smartphone, but do not wish to pay the outrageous data plan fees.&amp;nbsp;  This is one of the reasons I was so excited to see Google release the Nexus One.&amp;nbsp; I used the phone for a few weeks and did not miss having WAN data one bit.&amp;nbsp;  I can use wi-fi at home and at work and plenty of places around town.&amp;nbsp; &lt;/p&gt;&lt;p&gt; When a Nexus One is powered up for the first time it will immediately try to connect to google and wherever else as part of its setup.&amp;nbsp;  If you don't have a data plan that could cost you money.&amp;nbsp; My AT&amp;amp;T plan will charge me a $2 minumum and I could quickly exceed that and get into more charges.&amp;nbsp;  To avoid that first you need to power up the device with &lt;b&gt;no SIM card installed.&amp;nbsp;&lt;/b&gt;  If the SIM card is in it and the access point settings are correct you may incur charges.&amp;nbsp; &lt;/p&gt;&lt;p&gt; Boot the phone and go through the first time setup.&amp;nbsp;  You can connect to wi-fi if its available.&amp;nbsp;]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./doc/manual_en/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./doc/manual_en/</guid>
+		<title>J-Pilot User Manual</title>
+		<pubDate>Sun, 03 Feb 2002 11:00:00 GMT</pubDate>
+		<description><![CDATA[&lt;center&gt; &lt;img src="../../img/jpilot-toplogo.jpg" alt="J-Pilot Logo: http://jpilot.org" nosave="" height="68" width="202"&gt; &lt;/center&gt; &lt;p&gt;&lt;br&gt;&lt;b&gt;J-Pilot&lt;/b&gt; is a palm pilot desktop for Linux/Unix written by: &lt;br&gt;Judd Montgomery, judd@engineer.com, &lt;a href="http://jpilot.org/"&gt;http://jpilot.org&lt;/a&gt; &lt;br&gt;J-Pilot has been reported to work on: &lt;/p&gt;&lt;ul&gt; &lt;li&gt; Linux&lt;/li&gt; &lt;li&gt; Solaris&lt;/li&gt; &lt;li&gt; HP-UX&lt;/li&gt; &lt;li&gt; Irix&lt;/li&gt; &lt;li&gt; FreeBSD&lt;/li&gt; &lt;li&gt; PowerPC&lt;/li&gt; &lt;/ul&gt; HP-UX: J-Pilot should work with Palm Pilot models 1000, 5000, Personal, Professional,]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./doc/manual_de/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./doc/manual_de/</guid>
+		<title>J-Pilot Handbuch</title>
+		<pubDate>Sun, 30 Jul 2000 11:00:00 GMT</pubDate>
+		<description><![CDATA[&lt;em&gt;J-Pilot ist eine Desktop-Anwendung, mit der         sich der Palm Pilot der Firma 3Com unter Linux betreiben läßt.         Es   wurde  mit  dem   GTK-Toolkit  geschrieben  und setzt auf         &lt;em&gt;Pilot-Link&lt;/em&gt; auf. Er bietet die Standardanwendungen für         Adressen,  Termine,  Notizen  und Aufgaben.   Darüber   hinaus         bietet er eine  Installationsfunktion für PalmOS-Programme und         z.Zt.  ein Plugin für die Ausgaben-Anwendung.  Weitere Plugins         sind über die Homepage von J-Pilot erhältlich.&lt;/em&gt;]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./doc/mailinglist/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./doc/mailinglist/</guid>
+		<title>Mailing List</title>
+		<pubDate>Fri, 23 Oct 2020 11:00:00 GMT</pubDate>
+		<description><![CDATA[&lt;div class="entry-content"&gt; &lt;p&gt;This is the general J-Pilot email list&amp;period;   The purpose of the list is to discuss J-Pilot issues, new features, announce new versions, help new users, talk about privacy, etc.&lt;/p&gt; &lt;p&gt;You can get info about using the list by sending a message with just the word “help” as subject or in the body, to: &lt;a href="mailto&amp;#58;jpilot-request&amp;#064;lists.jpilot&amp;#46;org?Subject=Help"&gt;jpilot-request@lists.jpilot.org&lt;/a&gt;&lt;/p&gt; &lt;p&gt;To join just email &lt;a href="mailto&amp;#58;jpilot-request&amp;#064;lists.jpilot&amp;#46;org?Subject=Subscribe"&gt;jpilot-request@lists.jpilot.org&lt;/a&gt; with “join” or “subscribe” in the subject or body &lt;/p&gt; &lt;p&gt;&lt;b&gt;2020-10-23: We have moved to Mailman 3&lt;/b&gt;, which is a little different from the old mailman&amp;period; The Empathy site (list archives) also behaves as a forum.]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./doc/links/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./doc/links/</guid>
+		<title>Useful links</title>
+		<pubDate>Thu, 04 Nov 2021 17:00:00 GMT</pubDate>
+		<description><![CDATA[1. &lt;p&gt;I found a couple of hard to find electronic items at &lt;a href="https://secure.transtronics.com/Floobydust.html"&gt;Transtronics&lt;/a&gt;&lt;/p&gt; 1. Using a Nexus One (Google Phone) [without a data plan](../nexus) 1. &lt;p&gt;&lt;a href="http://www.moshpit.org/pilotmgr/"&gt;PilotManager&lt;/a&gt; is a Desktop application.&lt;/p&gt; 1. &lt;p&gt;&lt;a href="http://sourceforge.net/projects/usbvisor/"&gt;Sourceforge Visor Page&lt;/a&gt; Pretty much looks like all sourceforge pages.&lt;/p&gt; 1. [Elmar Klausmeier](https://eklausmeier.goip.de) wrote articles on J-Pilot: 	* [inotify-tools: inotifywait](https://eklausmeier.goip.de/blog/2013/01-29-inotify-tools-inotifywait) 	* [Syncing with J-Pilot via Bluetooth](https://eklausmeier.goip.de/blog/2014/04-14-syncing-with-j-pilot-via-bluetooth) 	* [Possible Enhancements to J-Pilot](https://eklausmeier.goip.de/blog/2013/02-27-enhancements-to-j-pilot)]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./doc/download/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./doc/download/</guid>
+		<title>Download</title>
+		<pubDate>Fri, 02 Apr 2021 11:00:00 GMT</pubDate>
+		<description><![CDATA[![](../../img/jpilot-anim.gif) The latest J-Pilot source code is on &lt;a href="https://github.com/juddmon/jpilot"&gt;GitHub&lt;/a&gt;, or click in the GitHub icon at the bottom of the page.  The new GTK3 release is on the feature-gtk3 branch. [Change Log](../changelog) &lt;p&gt;2021-04-02 &lt;a href="../../pkg/jpilot_2.0.1-1_amd64.deb"&gt;jpilot_2.0.1-1_amd64.deb&lt;/a&gt; &lt;p&gt;2021-04-02 &lt;a href="../../pkg/jpilot-plugins_2.0.1-1_amd64.deb"&gt;jpilot-plugins_2.0.1-1_amd64.deb&lt;/a&gt; &lt;p&gt;2021-02-25 &lt;a href="../../pkg/jpilot_1.8.2-2_amd64.deb"&gt;jpilot_1.8.2-2_amd64.deb (Ubuntu 20.04)&lt;/a&gt; &lt;p&gt;2021-02-25 &lt;a href="../../pkg/jpilot_2.0.0-1_amd64.deb"&gt;jpilot_2.0.0-1_amd64.deb (Ubuntu 20.04)&lt;/a&gt; &lt;p&gt;2021-02-25 &lt;a href="../../pkg/jpilot-plugins_1.8.2-2_amd64.deb"&gt;jpilot-plugins_1.8.2-2_amd64.deb (Ubuntu 20.04)&lt;/a&gt;]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./doc/changelog/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./doc/changelog/</guid>
+		<title>Change Log</title>
+		<pubDate>Sun, 18 May 2014 11:00:00 GMT</pubDate>
+		<description><![CDATA[```text 1.8.2 - 05/18/14  Many bug fixes  Fixed VCard output  Added export for B-Folders  Added export for KeePassX  Changed the "enye" letter in Manana an "n", got tired of it causing problems (Ma\303\261ana to Manana)  Made lots of stupid code changes to make the compiler warnings go away ``` ```text 1.8.1 - 04/05/11  Added a jpilot-merge utility for merging unsynced records into a pdb file  Fixes Debian bug #574030: jpilot: can't delete appointments  Resolve bug 2012 where small months in Postcript printout overlapped a calendar event. ]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2021-11-06-redesign-3/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2021-11-06-redesign-3/</guid>
+		<title>Redesign 3</title>
+		<pubDate>Sat, 06 Nov 2021 18:00:00 GMT</pubDate>
+		<description><![CDATA[Web-site has been redesigned again. Major changes: * _All_ files are now Markdown ([CommonMark](https://commonmark.org)) files with Yaml-frontmatter, therefore all files run through the same template and so have the same layout. Luckily, Markdown accepts HTML code, so most pages still contain lots of original HTML code. * Removed duplicates * Removed dead links * Dropped separate screenshot page as images are contained in manuals * Previous feature page is now landing page * Henrik Becker's German manual is now a single file, German umlaute are corrected]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2021-09-13-issues-with-fonts/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2021-09-13-issues-with-fonts/</guid>
+		<title>Issue with fonts in v2.0.1</title>
+		<pubDate>Mon, 13 Sep 2021 17:19:00 GMT</pubDate>
+		<description><![CDATA[J-Pilot is using css rather than rc files since version 2. If you copy `/usr/share/jpilot/jpilotcss.default` to `~/.jpilot`, it will use that file, and you should be able to tweak the settings.  I thought it was installing already to the home directory, but I missed something. At the bottom of the file there is the following lines: ```CSS * { 	font-family: Arial Black, sans-serif; 	font-size: 10pt; } ``` Change "`font-family: Arial Black, sans-serif;`" to "`font-family: Arial, sans-serif;`", and the font won't appear to be bolded everywhere.]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2021-04-02-fixed-bugs-and-crashes/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2021-04-02-fixed-bugs-and-crashes/</guid>
+		<title>Released J-Pilot 2.0.1</title>
+		<pubDate>Fri, 02 Apr 2021 11:00:00 GMT</pubDate>
+		<description><![CDATA[Fixed bugs and crashes. For installation procedures see [Ported jpilot to GTK3 and released version 2.0.0](../2021-02-24-ported-jpilot-to-gtk3-and-released-version-2-0-0).]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2021-02-24-ported-jpilot-to-gtk3-and-released-version-2-0-0/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2021-02-24-ported-jpilot-to-gtk3-and-released-version-2-0-0/</guid>
+		<title>Ported jpilot to GTK3 and released version 2.0.0</title>
+		<pubDate>Wed, 24 Feb 2021 11:00:00 GMT</pubDate>
+		<description><![CDATA[In a combined effort of [David Malia](https://github.com/dmalia1) and me, J-Pilot was ported to use GTK3. GTK2 is now considered deprecated. Although GIMP still uses GTK2. Using GTK3, J-Pilot can now also run in a web-browser using `broadwayd`. If you want to test J-Pilot 2.0.0 on Ubuntu 20.04, then uninstall previous version. ```bash sudo apt remove jpilot-plugins jpilot sudo apt remove pilot-link libpisync1 libpisock9 ``` Then download the new packages: ```bash wget http://www.jpilot.org/pkg/jpilot_1.8.2-2_amd64.deb]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2016-11-21-redesign-2/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2016-11-21-redesign-2/</guid>
+		<title>Redesign 2</title>
+		<pubDate>Sat, 26 Nov 2016 11:00:00 GMT</pubDate>
+		<description><![CDATA[Responsive website redesign I redesigned the website to look fresher and be responsive design. It should now look nice on a small screen.]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2011-04-05-released-j-pilot-1-8-1/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2011-04-05-released-j-pilot-1-8-1/</guid>
+		<title>Released J-Pilot 1.8.1</title>
+		<pubDate>Tue, 05 Apr 2011 11:00:00 GMT</pubDate>
+		<description><![CDATA[Major Changes * Many bug fixes * Fixed VCard output * Added export for B-Folders * Added export for KeePassX * Changed the “enye” letter in Manana to an “n”, got tired of it causing problems (Ma\303\261ana to Manana) * Made lots of stupid code changes to make the compiler warnings go away * Check out the full [Change Log](../../doc/changelog)]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2011-01-08-bought-a-nexus/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2011-01-08-bought-a-nexus/</guid>
+		<title>Bought A Nexus, My First Android Device</title>
+		<pubDate>Sat, 08 Jan 2011 11:00:00 GMT</pubDate>
+		<description><![CDATA[I bought a Nexus One about a year ago in the hopes of replacing my Palm with something better. Now a year later it still doesn’t come close to replacing the functionality of my Treo 680. My long term goal is to build an Android sync conduit for Contacts and Calendar and write a Tasks, Memos, and Keyring app with sync conduits. With this goal in mind I completed my first Android application [J-Calc](https://flippedbits.com/jcalc).]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2010-02-28-released-j-pilot-1-8-0/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2010-02-28-released-j-pilot-1-8-0/</guid>
+		<title>Released J-Pilot 1.8.0</title>
+		<pubDate>Sun, 28 Feb 2010 11:00:00 GMT</pubDate>
+		<description><![CDATA[Major Changes * Lots of changes (see [Change Log](../../doc/changelog)). * Calendar support is added and pilot-link 0.12.5 is required for this release.]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2009-02-15-released-j-pilot-1-6-2/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2009-02-15-released-j-pilot-1-6-2/</guid>
+		<title>Released J-Pilot 1.6.2</title>
+		<pubDate>Sun, 15 Feb 2009 11:00:00 GMT</pubDate>
+		<description><![CDATA[Major Changes * This is mostly a bugfix release. * Contacts created on the Palm were not always synced correctly. * Bugzilla 1973 (Contacts with pictures cause segfault) was fixed.]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2008-12-15-released-j-pilot-1-6-1/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2008-12-15-released-j-pilot-1-6-1/</guid>
+		<title>Released J-Pilot 1.6.1</title>
+		<pubDate>Mon, 15 Dec 2008 11:00:00 GMT</pubDate>
+		<description><![CDATA[Major Changes * The major improvements are newer category syncronization code and libgcrypt support. * As usual, many many bug fixes and improvements, see the [Change Log](../../doc/changelog) for details.]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2008-05-27-released-j-pilot-1-6-0/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2008-05-27-released-j-pilot-1-6-0/</guid>
+		<title>Released J-Pilot 1.6.0</title>
+		<pubDate>Tue, 27 May 2008 11:00:00 GMT</pubDate>
+		<description><![CDATA[Major Changes * J-Pilot version 1.6.0 released. * The major improvements are Contacts, and Memos support. * As usual, many many bug fixes and improvements, see the [Change Log](../../doc/changelog) for details. * Thanks to Rik Wehbring for all of his hard work patching and coding and Ludovic Rousseau for his Debian packages and patches. * Thanks to Karl Schmidt, Richard Mancussi, and Russell Button for donating a Treo 680 for R &amp; D. Why version 1.6.0? The version number for J-Pilot has always been about the level of functionality that it had. The first version 9 years ago was 0.90 because I thought it was 90% done. I was wrong, but that’s where it started. It never quite got to where I wanted for a 1.0 release. With the newer database code (Contacts and Memos) requiring major rewrites of much of the code it didn’t make sense to approach 1.0 anymore, but 2.0. If supporting Contacts, Calendar, Memos, and Tasks is 2.0, then we are at 1.6.0.]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2006-08-27-released-j-pilot-0-99-9/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2006-08-27-released-j-pilot-0-99-9/</guid>
+		<title>Released J-Pilot version 0.99.9</title>
+		<pubDate>Sun, 27 Aug 2006 11:00:00 GMT</pubDate>
+		<description><![CDATA[Major Changes * J-Pilot version 0.99.9 released. * Many bug fixes and improvements, see the [Change Log](../../doc/changelog) for details. * Pilot-link 0.12.0 was just realeased yesterday!!! J-Pilot will work fine with it, and it is recommended. Older pilot-links can be used as well.]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2005-10-30-website-redesign/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2005-10-30-website-redesign/</guid>
+		<title>Website Redesign</title>
+		<pubDate>Sun, 30 Oct 2005 11:00:00 GMT</pubDate>
+		<description><![CDATA[I redesigned the website to look fresher and use less deprecated HTML. Let me know if it doesn’t display correctly in your browser.]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2005-09-11-released-j-pilot-0-99-8pre11/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2005-09-11-released-j-pilot-0-99-8pre11/</guid>
+		<title>Released J-Pilot 0.99.8pre11</title>
+		<pubDate>Sun, 11 Sep 2005 11:00:00 GMT</pubDate>
+		<description><![CDATA[Major Changes: J-Pilot pre-release version 0.99.8-pre11 is ready for testing. Many many bug fixes and improvements, see [Change Log](../../doc/changelog). Version 0.99.8 is planned to be released next week.]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2004-02-28-released-j-pilot-0-99-7/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2004-02-28-released-j-pilot-0-99-7/</guid>
+		<title>Released J-Pilot 0.99.7</title>
+		<pubDate>Sat, 28 Feb 2004 11:00:00 GMT</pubDate>
+		<description><![CDATA[Major Changes: * Many bug fixes and improvements, see the [Change Log](../../doc/changelog).]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2004-01-15-wiki-page-up/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2004-01-15-wiki-page-up/</guid>
+		<title>Wiki Page Up</title>
+		<pubDate>Thu, 15 Jan 2004 11:00:00 GMT</pubDate>
+		<description><![CDATA[Major Changes: The Wiki page is up. Feel free to contribute. I added a link on the left for the bugs page also. A link is added to search the mail list archive also. **Update:** The wiki no longer exists.]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/2002-11-06-the-site-is-moved-to-gnu-designs-com/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/2002-11-06-the-site-is-moved-to-gnu-designs-com/</guid>
+		<title>This Site Is Moved To GNU-Design.com</title>
+		<pubDate>Wed, 06 Nov 2002 11:00:00 GMT</pubDate>
+		<description><![CDATA[The J-Pilot website, mail lists, cvs, etc., moved to gnu-designs.com’s server. Its still at [JPilot.org](https://jpilot.org), of course. The email lists will be down for a day or two more. We’re working on it.]]></description>
+	</item>
+	<item>
+		<link>https://eklausmeier.goip.de/jpilot/./blog/1999-05-23-this-site-goes-live/</link>
+		<guid>https://eklausmeier.goip.de/jpilot/./blog/1999-05-23-this-site-goes-live/</guid>
+		<title>This Site Goes Live</title>
+		<pubDate>Sun, 23 May 1999 11:00:00 GMT</pubDate>
+		<description><![CDATA[This site went up.]]></description>
+	</item>
+</channel>
+</rss>
