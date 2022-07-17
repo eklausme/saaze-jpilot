@@ -1,6 +1,7 @@
 /* CSS for Elmar Klausmeier's blog
    09-Aug-2021: Initial revision
    25-Aug-2021: Added transformed anchor a
+   17-Jul-2022: Corrected ul+ol, media switch now relative to rem
 */
 
 a { color:inherit; text-decoration:underline; position:relative; display:inline-block }
@@ -21,7 +22,7 @@ a:hover:after { width:100%;
 	transform:skewY(-4deg) /*translate(-.0px)*/; opacity:0.25;
 }
 
-p { font-family:ui-serif,Georgia,Cambria,"Times New Roman",Times,serif }
+p, ul, ol { font-family:ui-serif,Georgia,Cambria,"Times New Roman",Times,serif }
 img { border-radius:8px }
 blockquote { font-style:italic; padding-left:0.4rem; border-left:2px solid #ccc }
 td { border: 1px solid Black; border-collapse:collapse; padding:0.3rem 0.5rem 0.3rem 0.5rem }
@@ -29,7 +30,7 @@ th { border: 1px solid Black; background-color:Lightblue; padding:0.3rem 0.5rem 
 tr:nth-child(even) { background-color:Lightgray; }
 
 
-@media screen and (min-width: 601px) {
+@media screen and (width>50rem) {
 	.blogarea { margin-left:3rem; width:46rem }
 	h1 { font-size:3em; color:DarkBlue }
 	h2 { font-size:2.7em; color:DarkBlue }
@@ -44,8 +45,8 @@ tr:nth-child(even) { background-color:Lightgray; }
 	code[class*="language-"], pre[class*="language-"] { line-height:1.5; font-size:1.15rem }
 	/*code[class="language-perl"], pre[class="language-perl"] { line-height:1.5; font-size:1.15rem; tab-size:8 }*/
 }
-@media screen and (max-width: 600px) {
-	.blogarea { margin-left:0rem; width:25rem }
+@media screen and (width<=50rem) {
+	.blogarea { margin-left:0.7rem }
 	h1 { font-size:2.2em; color:DarkBlue }
 	h2 { font-size:1.7em; color:DarkBlue }
 	h3 { font-size:1.2em; color:DarkBlue }
