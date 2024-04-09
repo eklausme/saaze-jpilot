@@ -18,31 +18,31 @@ Boot the phone and go through the first time setup.&nbsp;  You can connect to wi
 
 __1.__ Hit the menu button and press settings
 
-![](../../img/1-Settings.png)
+![](*<?=$rbase?>*/img/1-Settings.png)
 
 __2.__ Press Wireless and networks
 
-![](../../img/2-Wireless.png)
+![](*<?=$rbase?>*/img/2-Wireless.png)
 
 __3.__ Press Mobile networks
 
-![](../../img/3-Mobile.png)
+![](*<?=$rbase?>*/img/3-Mobile.png)
 
 __4.__ Press Access Point Names
 
-![](../../img/4-AccessPointNames.png)
+![](*<?=$rbase?>*/img/4-AccessPointNames.png)
 
 __5.__ Press the menu button and then choose New APN
 
-![](../../img/5-NewAPN.png)
+![](*<?=$rbase?>*/img/5-NewAPN.png)
 
 __6.__ You must enter something for the Name and the APN field at a minumum.&nbsp;  I put in Null, but anything works, or doesn't work, since the point is to have it not work.&nbsp;
 
-![](../../mg/6-Nulls.png)
+![](*<?=$rbase?>*/mg/6-Nulls.png)
 
 __7.__ Press the back button to save your new APN and then set this to be the active APN indicated by the green indicator.&nbsp;<br>
 
-![](../../img/7-Null-default.png)
+![](*<?=$rbase?>*/img/7-Null-default.png)
 
 
 You may now shutdown the phone, put in your SIM card and boot back up without a data connection happening.&nbsp;  The phone will try to connect over the "Null" APN and fail to connect.&nbsp;Wi-fi

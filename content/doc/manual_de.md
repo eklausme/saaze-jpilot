@@ -383,7 +383,7 @@ kennen, oder  durch das Drücken der  Tatse <code>F1</code>. Darüber
 hinaus  können   Sie  auch  auf  ,,File``   klicken  und  dann
 ,,Datebook`` anwählen.
 </p><p>
-<img src="../../img/jpilot-datebook-de.gif">
+<img src="<?=$rbase?>/img/jpilot-datebook-de.gif">
 </p><p>
 </p><p>
 </p><h2><a name="ss3.1">3.1 Termin ansehen</a>
@@ -471,7 +471,7 @@ der Anwendungsbutton oben  links im Fenster an -  hier den zweiten von
 oben, den  Adressenlistenbutton.  Wahlweise  können Sie dazu  auch die
 Taste <code>F2</code> verwenden.
 </p><p>
-<img src="../../img/jpilot-address-de.gif">
+<img src="<?=$rbase?>/img/jpilot-address-de.gif">
 </p><p>
 </p><p>
 </p><h2><a name="ss4.1">4.1 Adressen ansehen</a>
@@ -549,7 +549,7 @@ den Button <em>,,Apply Changes``</em> betätigen.
 <p>In die Aufgabenliste führt Sie der dritte Button der Anwendungsbutton
 oder auch die Taste <code>F3</code>.
 </p><p>
-<img src="../../img/jpilot-todo-de.gif">
+<img src="<?=$rbase?>/img/jpilot-todo-de.gif">
 </p>
 
 <h2><a name="ss5.1">5.1 Ansicht von Aufgaben</a>
@@ -616,7 +616,7 @@ anschließend den Button <em>,,Apply Changes``</em> zu betätigen.
 Anwendungsbutton  für  die Merkzettel  zuständig.  Ebenso  für Sie  zu
 erahnen ist die Taste <code>F4</code> für den Aufruf selbiger.
 </p><p>
-<img src="../../img/jpilot-memo-de.gif">
+<img src="<?=$rbase?>/img/jpilot-memo-de.gif">
 </p><p>
 </p><p>
 </p><h2><a name="ss6.1">6.1 Ansicht von Merkzetteln</a>
@@ -649,7 +649,7 @@ anderen Anwendungen bekannten Prinzip.
 
 <p>
 </p><p>
-<img src="../../img/jpilot-search-de.gif">
+<img src="<?=$rbase?>/img/jpilot-search-de.gif">
 </p><p>
 </p><p>Sie können in den Datenbanken von J-Pilot nach beliebigen Zeichenfolgen
 suchen  und sich  das Ergebnis  anzeigen lassen.  Um  die Suchfunktion
@@ -680,7 +680,7 @@ installieren. Rufen  Sie dazu  den Installationsdialog auf,  indem Sie
 den Menueintrag <em>File-Install</em> anw�hlen.
 </p><p>
 </p><p>
-<img src="../../img/jpilot-install-de.gif">
+<img src="<?=$rbase?>/img/jpilot-install-de.gif">
 </p><p>
 </p><p>Die Dateien, die  Sie hier auswählen werden beim  nächsten HotSync auf
 dem PalmPilot installiert. J-Pilot legt lediglich einen Verweis auf die
@@ -710,7 +710,7 @@ Ihnen dann auf dem PalmPilot zur Verfügung.
 
 <p>
 </p><p>
-<img src="../../img/jpilot-prefs-de.gif">
+<img src="<?=$rbase?>/img/jpilot-prefs-de.gif">
 </p><p>
 </p><p>Wählen Sie  das für Sie  zutreffende Datumsformat im  Feld <em>,,Short
 date format``</em> aus. Treffen Sie außerdem eine Wahl für das normale
@@ -756,7 +756,7 @@ hinterlegt.  Dies kann unter Umständen irritierend wirken.
 
 <p>
 </p><p>
-<img src="../../img/jpilot-print-de.gif">
+<img src="<?=$rbase?>/img/jpilot-print-de.gif">
 </p><p>J-Pilot  verfügt über  ein nützliches  Feature -  Drucken. Dazu
 benutzt    das   Programm    die    Möglichkeit,   Daten    im
 Postscript-Format  zu exportieren.  Daher wird,  wenn  Sie aus

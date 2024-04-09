@@ -1,9 +1,11 @@
 <?php
 $title = "{$collection['title']} (Page {$pagination['currentPage']})";
 require SAAZE_PATH . "/templates/top-layout.php";
+?>
 
-foreach ($pagination['entries'] as $entry) { ?>
-<div class=blogarea>
+<main>
+<?php foreach ($pagination['entries'] as $entry) { ?>
+	<article>
 <?php if (isset($entry['title'])) { ?>
 	<h2><a href="<?= $rbase . $entry['url'] ?>"><?= $entry['title'] ?></a></h2>
 <?php } ?>
@@ -11,15 +13,17 @@ foreach ($pagination['entries'] as $entry) { ?>
 	<p class=dimmedColor><?= date('jS F Y', strtotime($entry['date'])) ?></p>
 <?php } ?>
 	<p><?= $entry['excerpt'] ?></p>
-</div>
+	</article>
 <?php } ?>
-<div class=blogarea>
+</main>
+
+<aside>
 	<?php if ($pagination['nextUrl']) { ?>
 	<a href="<?= $rbase . $pagination['nextUrl'] ?>">&larr; Older</a> &nbsp; &nbsp; &nbsp;
 	<?php } ?>
 	<?php if ($pagination['prevUrl']) { ?>
 	<a href="<?= $rbase . $pagination['prevUrl'] ?>">Newer &rarr;</a>
 	<?php } ?>
-</div>
+</aside>
 
 <?php require SAAZE_PATH . "/templates/bottom-layout.php"; ?>

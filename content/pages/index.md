@@ -5,7 +5,7 @@ date: "2021-11-04 20:01:00"
 
 J-Pilot is a desktop organizer application, which can be used with PalmOS devices. It is meant to be an alternative to the Palm Desktop for those who run the most popular Operating Systems in the World, Linux and Unix.  Note, that most common does not equate to most popular.
 
-![](./img/jpilot-landing.png)
+![](*<?=$rbase?>*/img/jpilot-landing.png)
 
 <h3 id="third-party-application-support">Third-party Application Support</h3>
 

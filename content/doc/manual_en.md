@@ -5,7 +5,7 @@ author: "Judd Montgomery"
 ---
 
 <center>
-<img src="../../img/jpilot-toplogo.jpg" alt="J-Pilot Logo: http://jpilot.org" nosave="" height="68" width="202">
+<img src="<?=$rbase?>/img/jpilot-toplogo.jpg" alt="J-Pilot Logo: http://jpilot.org" nosave="" height="68" width="202">
 </center>
 
 <p><br><b>J-Pilot</b> is a palm pilot desktop for Linux/Unix written by:
@@ -179,7 +179,7 @@ Using J-Pilot</h2>
 
 <h3>Datebook Application</h3>
 
-<img src="../../img/jpilot-datebook.png" alt="Datebook Screenshot: Download full documents with images at http://jpilot.org" nosave="" height="571" width="790">
+<img src="<?=$rbase?>/img/jpilot-datebook.png" alt="Datebook Screenshot: Download full documents with images at http://jpilot.org" nosave="" height="571" width="790">
 
 <h4>Viewing Records</h4>
 
@@ -215,7 +215,7 @@ details of the record, and then press the "Apply Changes" button.
 
 <h3>Address Application</h3>
 
-<img src="../../img/jpilot-address.png" alt="Address Screenshot: Download full documents with images at http://jpilot.org" nosave="" height="571" width="790">
+<img src="<?=$rbase?>/img/jpilot-address.png" alt="Address Screenshot: Download full documents with images at http://jpilot.org" nosave="" height="571" width="790">
 
 <h4>Viewing Records</h4>
 
@@ -250,7 +250,7 @@ address and then press the "Apply Changes" button.
 
 <h3>ToDo Application</h3>
 
-<img src="../../img/jpilot-todo.png" alt="ToDo Screenshot: Download full documents with images at http://jpilot.org" nosave="" height="571" width="790">
+<img src="<?=$rbase?>/img/jpilot-todo.png" alt="ToDo Screenshot: Download full documents with images at http://jpilot.org" nosave="" height="571" width="790">
 
 <h4>Viewing Records</h4>
 
@@ -285,7 +285,7 @@ box.
 
 <h3>Memo Application</h3>
 
-<img src="../../img/jpilot-memo.png" alt="Memo Screenshot: Download full documents with images at http://jpilot.org" nosave="" height="571" width="790">
+<img src="<?=$rbase?>/img/jpilot-memo.png" alt="Memo Screenshot: Download full documents with images at http://jpilot.org" nosave="" height="571" width="790">
 
 <h4>Viewing Records</h4>
 
@@ -313,7 +313,7 @@ then press the "Apply Changes" button.
 
 <h3>Expense Application Plugin</h3>
 
-<img src="../../img/jpilot-expense.png" alt="Expense Screenshot: Download full documents with images at http://jpilot.org" nosave="" height="571" width="790">
+<img src="<?=$rbase?>/img/jpilot-expense.png" alt="Expense Screenshot: Download full documents with images at http://jpilot.org" nosave="" height="571" width="790">
 
 <h4>This is an example plugin application</h4>
 
@@ -337,7 +337,7 @@ have it enabled.&nbsp;
 
 <h3>Searching</h3>
 
-<img src="../../img/jpilot-search.png" alt="Search Screenshot: Download full documents with images at http://jpilot.org" nosave="" height="332" width="500">
+<img src="<?=$rbase?>/img/jpilot-search.png" alt="Search Screenshot: Download full documents with images at http://jpilot.org" nosave="" height="332" width="500">
 <p>Search allows you to search for strings that may appear in records.&nbsp;
 Just type the search string into the "Search for" entry and hit enter.&nbsp;
 The "Case Sensitive" checkbox can be clicked for a case sensitive search.&nbsp;
@@ -348,7 +348,7 @@ and the record that matches the one that was selected.
 
 <h3>Installing files to the Palm Pilot</h3>
 
-<img src="../../img/jpilot-install.png" alt="Install Screenshot: Download full documents with images at http://jpilot.org" nosave="" height="571" width="435">
+<img src="<?=$rbase?>/img/jpilot-install.png" alt="Install Screenshot: Download full documents with images at http://jpilot.org" nosave="" height="571" width="435">
 <p>The files entered here will be installed during the next sync.&nbsp;
 J-Pilot just keeps a pointer to the file, not a copy, so you shouldn't
 move the file, or delete it until after a sync.&nbsp; Just browse through
@@ -362,14 +362,14 @@ them and pressing the "Remove" button.&nbsp; When you are done press the
 
 <h3>Preferences screen</h3>
 
-<img src="../../img/jpilot-prefs-1.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
-<img src="../../img/jpilot-prefs-2.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
-<img src="../../img/jpilot-prefs-3.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
-<img src="../../img/jpilot-prefs-4.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
-<img src="../../img/jpilot-prefs-5.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
-<img src="../../img/jpilot-prefs-6.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
-<img src="../../img/jpilot-prefs-7.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
-<img src="../../img/jpilot-prefs-8.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
+<img src="<?=$rbase?>/img/jpilot-prefs-1.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
+<img src="<?=$rbase?>/img/jpilot-prefs-2.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
+<img src="<?=$rbase?>/img/jpilot-prefs-3.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
+<img src="<?=$rbase?>/img/jpilot-prefs-4.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
+<img src="<?=$rbase?>/img/jpilot-prefs-5.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
+<img src="<?=$rbase?>/img/jpilot-prefs-6.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
+<img src="<?=$rbase?>/img/jpilot-prefs-7.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
+<img src="<?=$rbase?>/img/jpilot-prefs-8.png" alt="Preferences Screenshot 1" nosave="" height="306" width="428">
 
 <h4>Locale Tab</h4>
 

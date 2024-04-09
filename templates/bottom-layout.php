@@ -1,6 +1,12 @@
 
 	<footer>
-		<p class="blogarea dimmedColorSansSerif"><br><br>&copy; Judd Montgomery, last generated <?= date('d-M-Y H:i:s P') ?> GMT using <a href=https://github.com/eklausme/saaze>Simplified Saaze</a><br><br></p>
+		<p class="dimmedColorSansSerif"><br><br>&copy; Judd Montgomery, <?php
+			printf("generated %s CET (Europe/Berlin) using <a href=\"%s\">Simplified Saaze</a>%s%s<br><br>\n",
+				date('d-M-y H:i'), '/blog/2021/10-31-simplified-saaze',
+				getenv('NON_NGINX') ? '' : ', served by <a href="https://nginx.org">NGINX</a>',
+				isset($_SERVER['REQUEST_TIME_FLOAT']) ? sprintf(", rendered in %.2f ms",1000 * (microtime(true) - $_SERVER['REQUEST_TIME_FLOAT'])) : ''
+			);
+			?></p>
 
 		<center>
 		<a href="mailto&#58;Judd Montgomery &#60;judd@engineer.com&#62" title="Judd Montgomery" target="_blank"><img src="<?=$rbase.'/img/Email-icon32.png'?>" width="32" height="32" alt="Email logo"></a>

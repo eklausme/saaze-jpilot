@@ -31,7 +31,7 @@ tr:nth-child(even) { background-color:Lightgray; }
 
 
 @media screen and (width>50rem) {
-	.blogarea { margin-left:3rem; width:46rem }
+	main, article, aside { margin-left:3rem; width:46rem }
 	h1 { font-size:3em; color:DarkBlue }
 	h2 { font-size:2.7em; color:DarkBlue }
 	h3 { font-size:2em; color:DarkBlue }
@@ -46,7 +46,7 @@ tr:nth-child(even) { background-color:Lightgray; }
 	/*code[class="language-perl"], pre[class="language-perl"] { line-height:1.5; font-size:1.15rem; tab-size:8 }*/
 }
 @media screen and (width<=50rem) {
-	.blogarea { margin-left:0.7rem }
+	main, article, aside { margin-left:0.7rem }
 	h1 { font-size:2.2em; color:DarkBlue }
 	h2 { font-size:1.7em; color:DarkBlue }
 	h3 { font-size:1.2em; color:DarkBlue }
