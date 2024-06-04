@@ -10,5 +10,5 @@ Major Changes
 * Added export for KeePassX
 * Changed the “enye” letter in Manana to an “n”, got tired of it causing problems (Ma\303\261ana to Manana)
 * Made lots of stupid code changes to make the compiler warnings go away
-* Check out the full [Change Log](../../doc/changelog)
+* Check out the full [Change Log](*<?=$rbase?>*/doc/changelog)
 

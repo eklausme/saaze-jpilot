@@ -4,10 +4,9 @@ date: "2021-11-04 18:00:00"
 ---
 
 
-
 1. <p>I found a couple of hard to find electronic items at <a href="https://secure.transtronics.com/Floobydust.html">Transtronics</a></p>
 
-1. Using a Nexus One (Google Phone) [without a data plan](../nexus)
+1. Using a Nexus One (Google Phone) [without a data plan](*<?=$rbase?>*/doc/nexus)
 
 1. <p><a href="http://www.moshpit.org/pilotmgr/">PilotManager</a> is a Desktop application.</p>
 

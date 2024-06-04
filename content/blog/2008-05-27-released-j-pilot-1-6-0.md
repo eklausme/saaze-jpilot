@@ -6,7 +6,7 @@ date: "2008-05-27 12:00:00"
 Major Changes
 * J-Pilot version 1.6.0 released.
 * The major improvements are Contacts, and Memos support.
-* As usual, many many bug fixes and improvements, see the [Change Log](../../doc/changelog) for details.
+* As usual, many many bug fixes and improvements, see the [Change Log](*<?=$rbase?>*/doc/changelog) for details.
 * Thanks to Rik Wehbring for all of his hard work patching and coding and Ludovic Rousseau for his Debian packages and patches.
 * Thanks to Karl Schmidt, Richard Mancussi, and Russell Button for donating a Treo 680 for R & D.
 
