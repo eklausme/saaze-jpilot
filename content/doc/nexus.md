@@ -38,7 +38,7 @@ __5.__ Press the menu button and then choose New APN
 
 __6.__ You must enter something for the Name and the APN field at a minumum.&nbsp;  I put in Null, but anything works, or doesn't work, since the point is to have it not work.&nbsp;
 
-![](*<?=$rbase?>*/mg/6-Nulls.png)
+![](*<?=$rbase?>*/img/6-Nulls.png)
 
 __7.__ Press the back button to save your new APN and then set this to be the active APN indicated by the green indicator.&nbsp;<br>
 

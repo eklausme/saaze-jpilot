@@ -8,7 +8,7 @@ date: "2021-04-02 12:00:00"
 The latest J-Pilot source code is on <a href="https://github.com/juddmon/jpilot">GitHub</a>, or click in the GitHub icon at the bottom of the page.  The new GTK3 release is on the feature-gtk3 branch.
 
 ---
-[Change Log](*<?=$rbase?>*/changelog)
+[Change Log](*<?=$rbase?>*/doc/changelog)
 
 ---
 <p>2021-04-02 <a href="<?=$rbase?>/pkg/jpilot_2.0.1-1_amd64.deb">jpilot_2.0.1-1_amd64.deb</a>
