@@ -6,6 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?= $title ?? "J-Pilot" ?></title>
+	<link rel="canonical" href="https://eklausmeier.goip.de/jpilot<?=$url??''?>">
 
 <?php if (isset($entry['prismjs'])) { ?>
 	<link href="https://unpkg.com/prismjs@v1.24.0/themes/prism.css" rel="stylesheet" />
