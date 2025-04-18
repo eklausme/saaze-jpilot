@@ -9,8 +9,8 @@
 	<link rel="canonical" href="https://eklausmeier.goip.de/jpilot<?=$url??''?>">
 
 <?php if (isset($entry['prismjs'])) { ?>
-	<link href="https://unpkg.com/prismjs@v1.24.0/themes/prism.css" rel="stylesheet" />
-	<link href="https://unpkg.com/prismjs@v1.24.0/plugins/line-numbers/prism-line-numbers.css" rel="stylesheet" />
+	<link href="https://unpkg.com/prismjs@latest/themes/prism.css" rel="stylesheet" />
+	<link href="https://unpkg.com/prismjs@latest/plugins/line-numbers/prism-line-numbers.css" rel="stylesheet" />
 <?php } ?>
 	<link href="<?=$rbase?>/jpilot.css" rel=stylesheet>
 </head>

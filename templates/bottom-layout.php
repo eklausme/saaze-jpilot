@@ -19,9 +19,9 @@
 </body>
 
 <?php if (!isset($pagination) && isset($entry['prismjs'])) { ?>
-	<script src="https://unpkg.com/prismjs@v1.24.0/components/prism-core.min.js"></script>
-	<script src="https://unpkg.com/prismjs@v1.24.0/plugins/autoloader/prism-autoloader.min.js"></script>
-	<script src="https://unpkg.com/prismjs@v1.24.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+	<script src="https://unpkg.com/prismjs@latest/components/prism-core.min.js"></script>
+	<script src="https://unpkg.com/prismjs@latest/plugins/autoloader/prism-autoloader.min.js"></script>
+	<script src="https://unpkg.com/prismjs@latest/plugins/line-numbers/prism-line-numbers.min.js"></script>
 <?php } ?>
 
 </html>
